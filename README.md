@@ -1,10 +1,11 @@
-# NYCDA React / Webpack Template
+React / Webpack 
 
 This template allows you to very quickly spin up a React application that's
 equipped with Webpack for builds. It provides the following features:
 
 * ES2017 and JSX using Babel
 * Style components using SASS
+* Style components using bootstrap
 * Asset resolving via file loader for JS and CSS
 * Image compression using image-webpack-loader
 * Hot module replacement with Webpack Dev Server
@@ -17,7 +18,8 @@ You must be on a Node version greater than 6 to use this. Once you've npm
 installed, there are only two commands:
 
 * `npm run start` - Runs the development server (Specify port with PORT, default 3000)
-* `npm run build` - Builds the production version, which goes into `dist`
+* `node index.js  - Runs the backend (Specify port with PORT, 3002)
+*`npm run build` - Builds the production version, which goes into `dist`
 
 Once you start building things with this template, you may want to remove the
 `.placeholder` files in `src/assets/fonts`, `src/assets/images`, and
